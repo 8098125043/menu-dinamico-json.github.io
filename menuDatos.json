@@ -1,0 +1,22 @@
+{
+    "menuItems": [
+      {
+        "title": "Inicio",
+        "link": "index.html"
+      },
+      {
+        "title": "Categorías",
+        "link": "categorías.html"
+ 
+      },
+      {
+        "title": "Acerca de",
+        "link": "acerca.html"
+      },
+      {
+        "title": "Contacto",
+        "link": "contacto.html"
+      }
+    ]
+  }
+  

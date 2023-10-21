@@ -1,0 +1,70 @@
+/* Estilos generales */
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos del encabezado y el menú */
+header {
+    background-color: bisque;
+    color: black;
+    text-align: left;
+    padding: 5px 0;
+}
+
+nav menu {
+    display: flex;
+    justify-content: center;
+}
+nav ul:hover{
+    font-weight: bold;
+   
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+}
+
+.menu li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Estilos para el submenú */
+.sub-items {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    list-style: none;
+    padding: 0;
+}
+
+.sub-menu :hover .sub-items {
+    display: block;
+    background-color: aqua;
+}
+
+.sub-items li {
+    display: block;
+    text-align: left;
+    margin-right: 0;
+}
+
+/* Estilos de respuesta */
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+    }
+
+    .menu li {
+        margin: 0;
+        padding: 5px;
+    }
+}
