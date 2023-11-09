@@ -1,22 +1,38 @@
 {
-    "menuItems": [
-      {
-        "title": "Inicio",
-        "link": "index.html"
-      },
-      {
-        "title": "Categorías",
-        "link": "categorías.html"
- 
-      },
-      {
-        "title": "Acerca de",
-        "link": "acerca.html"
-      },
-      {
-        "title": "Contacto",
-        "link": "contacto.html"
-      }
-    ]
-  }
-  
+  "menuItems": [
+    {
+      "title": "Inicio",
+      "link": "index.html"
+    },
+    {
+      "title": "Categorías",
+      "items": [
+        {
+          "title": "Viviendas Pequeñas",
+          "link": "viviendas-pequenas.html"
+        },
+        {
+          "title": "Viviendas Grandes",
+          "link": "viviendas-grandes.html"
+        },
+        {
+          "title": "Espacios Abiertos",
+          "link": "espacios-abiertos.html"
+        }
+      ]
+    },
+
+    {
+      "title": "Acerca de",
+      "link": "acerca.html"
+    },
+    {
+      "title": "Contacto",
+      "link": "contacto.html"
+    },
+    {
+      "title": "Clientes",
+      "link": "clientes.html"
+    }
+  ]
+}

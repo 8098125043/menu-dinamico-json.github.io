@@ -1,70 +1,100 @@
-/* Estilos generales */
 body {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    margin: 0;
-    padding: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin: 0;
+  padding: 0;
+  background-image: url(portada.jpg);
+  background-repeat: cover;
+  top: 500px;
+}
+nav {
+  background-color: #ff9ea2;
+  color: black;
+  text-align: left;
+  padding: 5px 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-style: italic;
+  font-size: 20px;
 }
 
 /* Estilos del encabezado y el menú */
+header h1 {
+  font-size: 40px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: black;
+  text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.5);
+  transform: skew(-15deg);
+  font-family: "Dancing Script", cursive;
+  text-align: center;
+}
+header h2 {
+  font-size: 2em;
+  font-family: "gel";
+  font-style: italic;
+  text-align: center;
+  letter-spacing: 5px;
+  color: black;
+  text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.5);
+  transform: skew(-15deg);
+  font-family: "Dancing Script", cursive;
+}
 header {
-    background-color: bisque;
-    color: black;
-    text-align: left;
-    padding: 5px 0;
+  background-color: #ff9ea2;
+  width: 100%;
 }
 
 nav menu {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
-nav ul:hover{
-    font-weight: bold;
-   
+nav a:hover {
+  font-weight: bold;
+  background-color: #ff9ea2;
 }
 
 .menu {
-    list-style: none;
-    padding: 0;
+  list-style: none;
+  padding: 0;
 }
 
 .menu li {
-    display: inline;
-    margin-right: 20px;
+  display: inline;
+  margin-right: 20px;
 }
 
 .menu a {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
 
 /* Estilos para el submenú */
 .sub-items {
-    display: none;
-    position: absolute;
-    background-color: #333;
-    list-style: none;
-    padding: 0;
+  display: none;
+  position: absolute;
+  background-color: #333;
+  list-style: none;
+  padding: 0;
 }
 
 .sub-menu :hover .sub-items {
-    display: block;
-    background-color: aqua;
+  display: block;
+  background-color: aqua;
 }
 
 .sub-items li {
-    display: block;
-    text-align: left;
-    margin-right: 0;
+  display: block;
+  text-align: left;
+  margin-right: 0;
 }
 
 /* Estilos de respuesta */
 @media (max-width: 768px) {
-    nav {
-        flex-direction: column;
-    }
+  nav {
+    flex-direction: column;
+  }
 
-    .menu li {
-        margin: 0;
-        padding: 5px;
-    }
+  .menu li {
+    margin: 0;
+    padding: 5px;
+  }
 }
